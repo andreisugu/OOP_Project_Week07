@@ -1,0 +1,23 @@
+Factory Pattern:
+
+    Creează un singur obiect la un apel de metodă.
+
+    Clientul nu cunoaște clasele concrete.
+
+    Se folosește o metodă (de obicei statică) pentru a instanția obiectul corect.
+
+Abstract Factory Pattern:
+
+    Creează o familie de obiecte compatibile între ele.
+
+    Clientul primește o fabrică (obiect) care are mai multe metode de creare.
+
+    Ideal pentru situații în care trebuie create mai multe tipuri de obiecte interdependente (ex.: UI pentru diverse platforme).
+
+Builder Pattern:
+
+    Construieste obiecte complexe pas cu pas.
+
+    Potrivit când obiectul are mulți parametri (obligați și opționali).
+
+    Folosește o clasă Builder cu metode de setare și o metodă finală build() pentru a crea obiectul final.
